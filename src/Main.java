@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Dictionary a = new Dictionary();
+        DictionaryCommandline b = new DictionaryCommandline();
+        b.dictionaryBasic(a);
+
     }
 }
